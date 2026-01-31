@@ -2,12 +2,12 @@ def analice():
     genero = input("Cual es su genero favotito?").lower()
 
     generos = {
-        "progresivo": "Pink Floyd, Yes, Genesis, King Crimson, The Mars Volta",
-        "rock": "Queen, Nirvana, Guns N' Roses, The Beatles",
-        "pop": "Taylor Swift, Ariana Grande, Dua Lipa, Ed Sheeran",
-        "hip hop": "Kendrick Lamar, Drake, J. Cole, Travis Scott",
-        "jazz": "Miles Davis, John Coltrane, Ella Fitzgerald, Louis Armstrong",
-        "classical": "Ludwig van Beethoven, Wolfgang Amadeus Mozart, Johann Sebastian Bach, Frédéric Chopin"
+        "progresivo": ["Pink Floyd", "Yes", "Genesis", "King Crimson", "The Mars Volta"],
+        "rock": ["Queen", "Nirvana", "Guns N' Roses", "The Beatles"],
+        "pop": ["Taylor Swift", "Ariana Grande", "Dua Lipa", "Ed Sheeran"],
+        "hip hop": ["Kendrick Lamar", "Drake", "J. Cole", "Travis Scott"],
+        "jazz": ["Miles Davis", "John Coltrane", "Ella Fitzgerald", "Louis Armstrong"],
+        "classical": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Frédéric Chopin"]
     }
     
     if genero in generos:
